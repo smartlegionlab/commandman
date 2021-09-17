@@ -8,6 +8,7 @@
 # Url: https://github.com/smartlegionlab
 # --------------------------------------------------------
 from commandman.config import ClickConfig
+from commandman.managers import ManagersBuilder
 
 
 @ClickConfig.click_group
@@ -111,3 +112,7 @@ def cli(file, auto, add_list, exc_list):
     Copyright © 2018-2021, A.A Suvorov; All rights reserved.
 
     """
+    cli_manager = ManagersBuilder.create_cli_manager()
+    cli_manager.show_head()
+    cli_manager.start(file, add_list=add_list, exc_list=exc_list, auto=auto)
+    cli_manager.show_footer()

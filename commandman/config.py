@@ -14,7 +14,7 @@ class Config:
     name = 'commandman'
     title = 'Command Manager'
     description = 'Cross-platform console command manager.'
-    version = '0.1.0'
+    version = '0.1.1'
     author = 'A.A Suvorov'
     email = 'smartlegiondev@gmail.com'
     url = 'https://smartlegion.ru'
