@@ -1,0 +1,8 @@
+pytest
+pytest-cov
+wheel
+build
+tox
+setuptools
+click~=8.0.1
+commandpack~=0.1.1
