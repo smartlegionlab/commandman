@@ -25,6 +25,9 @@ class Config:
 
 
 class ClickConfig:
+    click_version_option = click.version_option(
+        version=Config.version
+    )
     click_group = click.group(
         context_settings={'help_option_names': ['-h', '--help']},
         invoke_without_command=True
