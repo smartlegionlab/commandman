@@ -5,33 +5,16 @@
 # Copyright © 2018-2021, A.A Suvorov
 # All rights reserved.
 # --------------------------------------------------------
-# Url: https://github.com/smartlegionlab
-# --------------------------------------------------------
 import click
 
 
 class Config:
-    name = 'commandman'
-    title = 'Command Manager'
-    description = 'Cross-platform console command manager.'
-    version = '0.1.1'
-    author = 'A.A Suvorov'
-    email = 'smartlegiondev@gmail.com'
-    url = 'https://smartlegion.ru'
-    github_url = 'https://github.com/smartlegionlab'
-    donate = 'https://smartlegionlab.github.io/donate'
-    copyright = 'Copyright © 2018-2021, A.A Suvorov; All rights reserved.'
-    license = 'BSD 3-Clause License'
 
-
-class ClickConfig:
-    click_version_option = click.version_option(
-        version=Config.version
-    )
     click_group = click.group(
         context_settings={'help_option_names': ['-h', '--help']},
         invoke_without_command=True
     )
+
     click_argument_file = click.argument(
         'file',
         type=click.Path(exists=True)

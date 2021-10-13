@@ -13,6 +13,15 @@ Author and developer: ___A.A Suvorov.___
 
 ***
 
+## Help the project financially:
+
+- Yandex Money: [https://yoomoney.ru/to/4100115206129186](https://yoomoney.ru/to/4100115206129186)
+- PayPal: [https://paypal.me/smartlegionlab](https://paypal.me/smartlegionlab)
+- LiberaPay: [https://liberapay.com/smartlegion/donate](https://liberapay.com/smartlegion/donate)
+- Visa: 4048 0250 0089 5923
+
+***
+
 ## Supported:
 
 - Linux: All.
@@ -41,7 +50,10 @@ __Use pip or pip3:__
 
 ## What's new?
 
-### ___commandman v0.1.1___
+### ___commandman v0.1.2___
+
+- Bugs fixed
+- Improved application structure
 
 ***
 

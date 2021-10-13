@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # --------------------------------------------------------
 # Licensed under the terms of the BSD 3-Clause License
@@ -5,9 +6,7 @@
 # Copyright © 2018-2021, A.A Suvorov
 # All rights reserved.
 # --------------------------------------------------------
-# Url: https://github.com/smartlegionlab
-# --------------------------------------------------------
-from commandman.cli import cli
+from commandman.app import cli
 
 if __name__ == '__main__':
     cli()
