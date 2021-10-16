@@ -27,18 +27,6 @@ Author and developer: ___A.A Suvorov.___
 - Linux: All.
 - Windows: 7/8/10.
 - Termux (Android).
-
-***
-
-## Requirements:
-
-__Use pip or pip3:__
-- [Python](https://python.org) 3.6+
-  - [download](https://python.org)
-- [click](https://github.com/pallets/click) 8.0.1
-  - `pip3 install click~=8.0.1`
-- [commandpack](https://github.com/smartlegionlab/commandpack/) 0.1.1
-  - `pip3 install commandpack~=0.1.1`
     
 ***
 
@@ -50,10 +38,10 @@ __Use pip or pip3:__
 
 ## What's new?
 
-### ___commandman v0.1.2___
+### ___commandman v0.2.0___
 
-- Bugs fixed
-- Improved application structure
+- Upgrading to the new version [commandpack](https://github.com/smartlegionlab/commandpack) 
+- Added dependency on [smartcliapp](https://github.com/smartlegionlab/smartcliapp)
 
 ***
 
@@ -62,8 +50,8 @@ __Use pip or pip3:__
 ___commandman___ - Cli command manager.
 
 The utility uses the package: [commandpack](https://github.com/smartlegionlab/commandpack).
-
-Author and developer: ___A.A Suvorov___
+The utility uses the package: [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
+The utility uses the package: [click](https://github.com/pallets/click) by [license](https://github.com/pallets/click/blob/main/LICENSE.rst).
 
 ***
 
@@ -74,6 +62,14 @@ It is convenient to store and run many commands for
 automatic execution after system installation.
 
 Recommended for use on `*nix` systems.
+
+Possibilities:
+
+- Storing named packages of commands in one file.
+- Launching the execution of a batch or batch of commands from a file in automatic or manual mode.
+- Add and run only certain packages.
+- Exclusion of certain command packages from launch.
+- Ability to run and skip command packets and individual commands in manual mode.
 
 ***
 
@@ -135,13 +131,11 @@ Packages:
 Package names are placed in square brackets,
 below the name are the commands included in this package.
 
-
 ***
 
 Commands:
 
 The commands are grouped under the desired names in packages.
-
 
 ***
 
@@ -236,3 +230,13 @@ or
     CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+***
+
+## Copyright:
+    --------------------------------------------------------
+    Licensed under the terms of the BSD 3-Clause License
+    (see LICENSE for details).
+    Copyright © 2018-2021, A.A Suvorov
+    All rights reserved.
+    --------------------------------------------------------
