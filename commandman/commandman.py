@@ -40,7 +40,7 @@ class CommandMan:
         if pack_list:
             return self._run(pack_list=pack_list, auto=auto)
         else:
-            self._click_man.printer.default.echo(
+            self._click_man.printer.base.echo(
                 'No command packages found. '
                 '(There may be an error in the file, '
                 'or the file has the wrong structure).'
@@ -62,27 +62,27 @@ class CommandMan:
                 action = self._click_man.action_man.get_action(f'Execute package [{pack.name}]?')
 
                 if not action:
-                    self._click_man.printer.default.echo(f'Command package: [{pack.name}] will not be launched.')
-                    self._click_man.printer.default.echo('Skip...')
+                    self._click_man.printer.base.echo(f'Command package: [{pack.name}] will not be launched.')
+                    self._click_man.printer.base.echo('Skip...')
                     continue
                 else:
-                    self._click_man.printer.default.echo(f'Command package: [{pack.name}], will be launched for '
-                                                         f'execution.')
+                    self._click_man.printer.base.echo(f'Command package: '
+                                                      f'[{pack.name}], will be launched for execution.')
 
             count = 0
             for command in pack.get_commands():
                 count += 1
                 msg = f'[{count}/{pack.count}] Command: [{command.name}]'
                 self._click_man.printer.smart.echo(f'Command: {count}')
-                self._click_man.printer.default.echo(msg)
+                self._click_man.printer.base.echo(msg)
                 if not auto:
                     action = self._click_man.action_man.get_action('Execute command?')
 
                     if not action:
-                        self._click_man.printer.default.echo('Skip...')
+                        self._click_man.printer.base.echo('Skip...')
                         continue
 
-                self._click_man.printer.default.echo('Processing...')
+                self._click_man.printer.base.echo('Processing...')
                 status = self._executor.execute(command.name)
 
                 if not status:
@@ -98,12 +98,12 @@ class CommandMan:
     def _show_start_report(self, len_pack_list, sum_commands):
         self._click_man.printer.smart.echo('Start report:')
         msg = f'System: [{os.name}] | Packs: [{len_pack_list}] | Commands: [{sum_commands}]'
-        self._click_man.printer.default.echo(msg)
+        self._click_man.printer.base.echo(msg)
         return msg
 
     def _show_end_report(self, sum_commands, count_commands):
         self._click_man.printer.smart.echo('End Report:')
         msg = f'Commands/Successfully/Errors: [{sum_commands}/{count_commands}/{len(self._errors)}]'
-        self._click_man.printer.default.echo(msg)
+        self._click_man.printer.base.echo(msg)
         self._click_man.printer.smart.echo()
         return msg

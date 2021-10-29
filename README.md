@@ -38,10 +38,11 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.2.0___
+### ___commandman v0.2.1___
 
-- Upgrading to the new version [commandpack](https://github.com/smartlegionlab/commandpack) 
-- Added dependency on [smartcliapp](https://github.com/smartlegionlab/smartcliapp)
+- Fixed some bugs.
+- Go to [smartcliapp 0.2.0](https://github.com/smartlegionlab/smartcliapp).
+
 
 ***
 
