@@ -6,4 +6,4 @@
 # All rights reserved.
 # --------------------------------------------------------
 """Cross-platform console command manager."""
-__version__ = '0.3.0'
+__version__ = '0.3.1'

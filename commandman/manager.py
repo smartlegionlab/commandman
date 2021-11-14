@@ -7,7 +7,7 @@
 # --------------------------------------------------------
 from commandman import __version__
 from commandman.commander import CommandMan
-from smartcliapp.informers import Informer
+from smartcliapp import Informer
 
 
 class CliMan(Informer):

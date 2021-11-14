@@ -38,9 +38,9 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.3.0___
+### ___commandman v0.3.1___
 
-- Go to [commandex](https://github.com/smartlegionlab/commandex).
+- Go to new version [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
 
 
 ***
@@ -49,7 +49,7 @@ Author and developer: ___A.A Suvorov.___
 
 ___commandman___ - Cli command manager.
 
-The utility uses the package: [commandpack](https://github.com/smartlegionlab/commandpack).
+The utility uses the package: [commandex](https://github.com/smartlegionlab/commandex).
 The utility uses the package: [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
 The utility uses the package: [click](https://github.com/pallets/click) by [license](https://github.com/pallets/click/blob/main/LICENSE.rst).
 
