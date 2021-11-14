@@ -6,7 +6,7 @@
 # All rights reserved.
 # --------------------------------------------------------
 from commandman import __version__
-from commandman.commandman import CommandMan
+from commandman.commander import CommandMan
 from smartcliapp.informers import Informer
 
 

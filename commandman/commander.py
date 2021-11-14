@@ -7,17 +7,15 @@
 # --------------------------------------------------------
 import os
 
-from commandpack.factories import Factory
-
+from commandex import Commander
 from smartcliapp.managers import ClickMan
 
 
 class CommandMan:
     def __init__(self):
         self._errors = []
-        self._executor = Factory.tools.executors.get_os_executor()
         self._click_man = ClickMan()
-        self._maker = Factory.tools.makers.get_pack_maker()
+        self._commander = Commander()
 
     @property
     def errors(self):
@@ -31,7 +29,7 @@ class CommandMan:
         if add_list is None:
             add_list = []
 
-        pack_list = self._maker.make_pack_list(
+        pack_list = self._commander.maker.make_pack_list(
             file=file,
             add_list=add_list,
             exc_list=exc_list
@@ -83,7 +81,7 @@ class CommandMan:
                         continue
 
                 self._click_man.printer.base.echo('Processing...')
-                status = self._executor.execute(command.name)
+                status = self._commander.executors.os.execute(command.name)
 
                 if not status:
                     self._errors.append(f'[error]:[{command.name}]')

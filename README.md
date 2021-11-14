@@ -15,8 +15,8 @@ Author and developer: ___A.A Suvorov.___
 
 ## Help the project financially:
 
-- Yandex Money: [https://yoomoney.ru/to/4100115206129186](https://yoomoney.ru/to/4100115206129186)
 - PayPal: [https://paypal.me/smartlegionlab](https://paypal.me/smartlegionlab)
+- Yandex Money: [https://yoomoney.ru/to/4100115206129186](https://yoomoney.ru/to/4100115206129186)
 - LiberaPay: [https://liberapay.com/smartlegion/donate](https://liberapay.com/smartlegion/donate)
 - Visa: 4048 0250 0089 5923
 
@@ -38,10 +38,9 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.2.1___
+### ___commandman v0.3.0___
 
-- Fixed some bugs.
-- Go to [smartcliapp 0.2.0](https://github.com/smartlegionlab/smartcliapp).
+- Go to [commandex](https://github.com/smartlegionlab/commandex).
 
 
 ***
