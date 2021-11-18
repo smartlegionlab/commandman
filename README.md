@@ -2,9 +2,16 @@
 
 ***
 
+
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/commandman)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/commandman?label=pypi%20downloads)](https://pypi.org/project/commandman/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/)
 [![GitHub](https://img.shields.io/github/license/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/commandman)](https://pypi.org/project/commandman)
+[![PyPI - Format](https://img.shields.io/pypi/format/commandman)](https://pypi.org/project/commandman)
+[![GitHub Repo stars](https://img.shields.io/github/stars/smartlegionlab/commandman?style=social)](https://github.com/smartlegionlab/commandman/)
+[![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/commandman?style=social)](https://github.com/smartlegionlab/commandman/)
+[![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/commandman?style=social)](https://github.com/smartlegionlab/commandman/)
 
 ***
 
@@ -48,12 +55,13 @@ Author and developer: ___A.A Suvorov.___
 
 - Go to new version [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
 
-
 ***
 
 ## Description:
 
 ___commandman___ - Cli command manager.
+
+`pip install commandman`
 
 The utility uses the package: [commandex](https://github.com/smartlegionlab/commandex).
 The utility uses the package: [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
@@ -184,6 +192,14 @@ The default is to autorun packages and commands `--auto`.
 ## Help:
 
 ### Install and Use:
+
+#### Install:
+
+- `pip3 install commandman`
+
+#### Use:
+
+- `commandman [options] [path to the file with command packages]`
 
 #### Build your command packages using example files:
 

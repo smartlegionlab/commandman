@@ -18,6 +18,18 @@ from commandman.manager import CliMan
 @Config.click_option_exc_list
 @Config.click_option_auto
 def cli(file, add_list, exc_list, auto):
+    """
+    clipassman - Cross-platform console command manager.
+
+    https://github.com/smartlegionlab
+
+    \b
+    Licensed under the terms of the BSD 3-Clause License
+    (see LICENSE for details).
+    Copyright © 2018-2021, A.A Suvorov
+    All rights reserved.
+
+    """
     CliMan.show_head()
     CliMan.commander.run(file, add_list, exc_list, auto)
     CliMan.show_footer()
