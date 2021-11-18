@@ -2,6 +2,12 @@
 
 ***
 
+![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/commandman)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/)
+[![GitHub](https://img.shields.io/github/license/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/blob/master/LICENSE)
+
+***
+
 ## Short description:
 ___commandman___ - Console command manager.
 
