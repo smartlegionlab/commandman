@@ -51,7 +51,7 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.3.1___
+### ___commandman v0.4.0___
 
 - Go to new version [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
 
