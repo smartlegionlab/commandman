@@ -58,9 +58,11 @@ class CommandMan:
         for pack in pack_list:
             count_packs += 1
             msg = f'Package [{pack.name}] [{count_packs}/{len_pack_list}]  | Commands({pack.command_count}) '
-            self._cli_man.printer.smart.echo(msg, '=')
+            self._cli_man.printer.smart.echo(char='=')
+            self._cli_man.printer.smart.echo(msg, '*')
+            self._cli_man.printer.smart.echo(char='=')
             if not auto:
-                action = self._cli_man.get_action(f'Execute package [{pack.name}]?')
+                action = self._cli_man.get_action(f'* Execute package [{pack.name}]?')
                 if not action:
                     self._cli_man.printer.base.echo(f'Command package: [{pack.name}] will not be launched.')
                     self._cli_man.printer.base.echo('Skip...')

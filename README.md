@@ -51,8 +51,10 @@ Author and developer: ___A.A Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.4.0___
+### ___commandman v0.4.1___
 
+- Fix errors.
+- Improved interface.
 - Go to new version [commandex](https://github.com/smartlegionlab/commandex).
 
 ***
