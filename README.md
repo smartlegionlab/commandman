@@ -37,7 +37,7 @@ Author and developer: ___A.A. Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.5.0___
+### ___commandman v0.5.1___
 
 ***
 
