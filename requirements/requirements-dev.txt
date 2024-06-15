@@ -1,0 +1,6 @@
+setuptools
+wheel
+tox
+click ~= 8.0.1
+smartcliapp ~= 0.4.0
+commandex ~= 0.2.2
