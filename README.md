@@ -4,7 +4,7 @@ Console command manager.
 
 ***
 
-
+[![PyPI Downloads](https://static.pepy.tech/badge/commandman)](https://pepy.tech/projects/commandman)
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/commandman)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/commandman?label=pypi%20downloads)](https://pypi.org/project/commandman/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/)
