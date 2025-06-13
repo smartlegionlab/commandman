@@ -1,7 +1,7 @@
 # --------------------------------------------------------
 # Licensed under the terms of the BSD 3-Clause License
 # (see LICENSE for details).
-# Copyright © 2018-2024, A.A. Suvorov
+# Copyright © 2018-2025, A.A. Suvorov
 # All rights reserved.
 # --------------------------------------------------------
 from commandman import __version__
@@ -15,5 +15,5 @@ class CliMan(Informer):
     title = 'CommandMan'
     description = 'Command Manager'
     version = __version__
-    copyright = 'Copyright © 2018-2024, A.A. Suvorov'
+    copyright = 'Copyright © 2018-2025, A.A. Suvorov'
     url = 'https://github.com/smartlegionlab/'

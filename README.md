@@ -1,4 +1,4 @@
-# commandman
+# commandman <sup>v0.5.2</sup>
 
 Console command manager.
 
@@ -37,7 +37,7 @@ Author and developer: ___A.A. Suvorov.___
 
 ## What's new?
 
-### ___commandman v0.5.1___
+### ___commandman v0.5.2___
 
 ***
 
@@ -243,6 +243,6 @@ or
     --------------------------------------------------------
     Licensed under the terms of the BSD 3-Clause License
     (see LICENSE for details).
-    Copyright © 2018-2024, A.A. Suvorov
+    Copyright © 2018-2025, A.A. Suvorov
     All rights reserved.
     --------------------------------------------------------
