@@ -1,45 +1,39 @@
-# commandman <sup>v0.5.2</sup>
+# commandman <sup>v1.0.0</sup>
 
-Console command manager.
+Console command manager. Store your commands in one place for automatic
+or manual launch and execution at any time.
 
-***
+---
 
-[![PyPI Downloads](https://static.pepy.tech/badge/commandman)](https://pepy.tech/projects/commandman)
+![Platform](https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Termux-666?style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/smartlegionlab/commandman)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/commandman?label=pypi%20downloads)](https://pypi.org/project/commandman/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/)
 [![GitHub](https://img.shields.io/github/license/smartlegionlab/commandman)](https://github.com/smartlegionlab/commandman/blob/master/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/commandman)](https://pypi.org/project/commandman)
-[![PyPI - Format](https://img.shields.io/pypi/format/commandman)](https://pypi.org/project/commandman)
 [![GitHub Repo stars](https://img.shields.io/github/stars/smartlegionlab/commandman?style=social)](https://github.com/smartlegionlab/commandman/)
 [![GitHub watchers](https://img.shields.io/github/watchers/smartlegionlab/commandman?style=social)](https://github.com/smartlegionlab/commandman/)
 [![GitHub forks](https://img.shields.io/github/forks/smartlegionlab/commandman?style=social)](https://github.com/smartlegionlab/commandman/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/commandman?label=pypi%20downloads)](https://pypi.org/project/commandman/)
+[![PyPI](https://img.shields.io/pypi/v/commandman)](https://pypi.org/project/commandman)
+[![PyPI Downloads](https://static.pepy.tech/badge/commandman)](https://pepy.tech/projects/commandman)
+[![PyPI - Format](https://img.shields.io/pypi/format/commandman)](https://pypi.org/project/commandman)
 
-***
+---
 
-Author and developer: ___A.A. Suvorov.___
+## ⚠️ Disclaimer
 
-***
+**By using this software, you agree to the full disclaimer terms.**
 
-## Supported:
+**Summary:** Software provided "AS IS" without warranty. You assume all risks.
 
-- Linux: All.
-- Windows: 7/8/10.
-- Termux (Android).
-    
-***
+**Full legal disclaimer:** See [DISCLAIMER.md](https://github.com/smartlegionlab/commandman/blob/master/DISCLAIMER.md)
+
+---
 
 ## Images:
 
 ![commandman image](https://github.com/smartlegionlab/commandman/raw/master/data/images/commandman.png)
 
-***
-
-## What's new?
-
-### ___commandman v0.5.2___
-
-***
+---
 
 ## Description:
 
@@ -50,8 +44,6 @@ ___commandman___ - Cli command manager.
 The utility uses the package: [commandex](https://github.com/smartlegionlab/commandex).
 The utility uses the package: [smartcliapp](https://github.com/smartlegionlab/smartcliapp).
 The utility uses the package: [click](https://github.com/pallets/click) by [license](https://github.com/pallets/click/blob/main/LICENSE.rst).
-
-***
 
 Store your commands in one place for automatic
 or manual launch and execution at any time.
@@ -69,19 +61,11 @@ Possibilities:
 - Exclusion of certain command packages from launch.
 - Ability to run and skip command packets and individual commands in manual mode.
 
-***
-
 ___File___ - a file in format 1 or 2 with the correct structure.
-
-***
 
 ___A command package___ - name for grouping commands in a file.
 
-***
-
 ___Command___ - a command to be executed in the console or terminal.
-
-***
 
 Create one or several files and store the necessary commands 
 in them under names (in packages).  
@@ -90,11 +74,10 @@ At the moment, the simplest `*.cfg` and `*.json` are supported.
 
 The file must have the correct structure.
 
-***
-
 `*.cfg` - The simplest file with command packages:
 
-    [package name 1]
+```text
+[package name 1]
     command 1
     command 2
     command N
@@ -102,8 +85,7 @@ The file must have the correct structure.
     command 1
     command 2
     command N
-
-***
+```
 
 `*.json` - The simplest file with command packages:
 
@@ -122,20 +104,14 @@ The file must have the correct structure.
 }
 ```
 
-***
-
 Packages:
 
 Package names are placed in square brackets,
 below the name are the commands included in this package.
 
-***
-
 Commands:
 
 The commands are grouped under the desired names in packages.
-
-***
 
 To run the file use the command:
 
@@ -143,8 +119,6 @@ To run the file use the command:
 
 A warning! If the file name contains spaces or invalid characters,
 when typing a terminal, enclose it in quotation marks.
-
-***
 
 Arguments:
 
@@ -171,9 +145,7 @@ the utility will ask for permission to execute.
 
 The default is to autorun packages and commands `--auto`.
 
-***
-
-## Help:
+---
 
 ### Install and Use:
 
@@ -222,27 +194,10 @@ or
 - `pip3 install -r requirements.txt`
 - `python3 commandmanager.py [options] [path to the file]`
 
-***
+---
 
-## Disclaimer of liability:
+## License
 
-    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+**[BSD 3-Clause License](https://github.com/smartlegionlab/commandman/blob/master/LICENSE)**
 
-***
-
-## Copyright:
-    --------------------------------------------------------
-    Licensed under the terms of the BSD 3-Clause License
-    (see LICENSE for details).
-    Copyright © 2018-2025, A.A. Suvorov
-    All rights reserved.
-    --------------------------------------------------------
+Copyright (©) 2026, [Alexander Suvorov](https://github.com/smartlegionlab)
